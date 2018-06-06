@@ -45,7 +45,7 @@ import org.apache.poi.ss.usermodel.Font;
  *            byte[]表jpg格式的图片数据
  */
 
-public class ExportExcel<T> {
+public class ExportExcelPOI<T> {
 
 	public void exportExcel(Collection<T> dataset, OutputStream out) throws IOException, SecurityException, NoSuchMethodException {
 

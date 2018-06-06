@@ -26,7 +26,7 @@ public class ReadAndWriteDoc {
      * @param filePath    word模板路径和名称
      * @param map        待填充的数据，从数据库读取
      */
-    public static void readwriteWord(String filePath, Map<String,String> map){
+    public static void readWriteWord(String filePath, Map<String,String> map){
         //读取word模板
 //        String fileDir = new File(base.getFile(),"http://www.cnblogs.com/http://www.cnblogs.com/../doc/").getCanonicalPath();
         FileInputStream in = null;
@@ -98,7 +98,7 @@ public class ReadAndWriteDoc {
      * @param filePath    word模板路径和名称
      * @param map        待填充的数据，从数据库读取
      */
-    public static void readwriteWord(HttpServletResponse response, String filePath, Map<String, String> map ,String fileName) throws Exception{
+    public static void readWriteWord(HttpServletResponse response, String filePath, Map<String, String> map ,String fileName) throws Exception{
         //读取word模板文件
 //        String fileDir = new File(base.getFile(),"http://www.cnblogs.com/http://www.cnblogs.com/../doc/").getCanonicalPath();
 //        FileInputStream in = new FileInputStream(new File(fileDir+"/laokboke.doc"));

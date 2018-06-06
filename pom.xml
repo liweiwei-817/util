@@ -24,7 +24,6 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.11</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -44,6 +43,19 @@
             <artifactId>poi-excelant</artifactId>
             <version>3.10-FINAL</version>
         </dependency>
+
+        <!-- jxls导入导出Excel-->
+        <dependency>
+            <groupId>net.sf.jxls</groupId>
+            <artifactId>jxls-core</artifactId>
+            <version>1.0.6</version>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.jxls</groupId>
+            <artifactId>jxls-reader</artifactId>
+            <version>1.0.6</version>
+        </dependency>
+
 
         <!-- 导入导出word -->
         <dependency>

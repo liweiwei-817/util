@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ImportTest {
+public class ImportExcelPOITest {
 
 	public void test() throws IOException {
 		File file = new File("");
@@ -16,9 +16,9 @@ public class ImportTest {
 				.substring(fileName.lastIndexOf(".") + 1);
 		String[][] result = null;
 		if ("xls".equals(extension)) {
-			result = new ImportExcel().read2003Excel(file);
+			result = new ImportExcelPOI().read2003Excel(file);
 		} else if ("xlsx".equals(extension)) {
-			result = new ImportExcel().read2007Excel(file);
+			result = new ImportExcelPOI().read2007Excel(file);
 		} else {
 			throw new IOException("不支持的文件类型");
 		}

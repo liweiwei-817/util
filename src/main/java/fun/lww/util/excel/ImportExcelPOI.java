@@ -20,10 +20,10 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class ImportExcel {
+public class ImportExcelPOI {
 
 	/**
-	 * 读取 office 2003 excel
+	 * 读取 office 2003 fun.lww.util.excel
 	 * @throws IOException
 	 * @throws FileNotFoundException
 	 */
@@ -31,7 +31,7 @@ public class ImportExcel {
 			throws IOException {
 		List<String[]> result = new ArrayList<String[]>();
 		int rowSize = 0;
-		//创建新的 excel 工作博
+		//创建新的 fun.lww.util.excel 工作博
 		HSSFWorkbook hwb = new HSSFWorkbook(new FileInputStream(file));
 		//在 excel工作博中建一工作表, 其名为缺省值
 		// 如要新建一名为"效益指标"的工作表,其语句为:
@@ -124,7 +124,7 @@ public class ImportExcel {
 	}
 
 	/**
-	 * 读取Office 2007 excel
+	 * 读取Office 2007 fun.lww.util.excel
 	 */
 	public String[][] read2007Excel(File file) throws IOException {
 		List<String[]> result = new ArrayList<String[]>();
