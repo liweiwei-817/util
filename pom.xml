@@ -44,18 +44,12 @@
             <version>3.10-FINAL</version>
         </dependency>
 
-        <!-- jxls导入导出Excel-->
+        <!-- jxl导入导出Excel-->
         <dependency>
-            <groupId>net.sf.jxls</groupId>
-            <artifactId>jxls-core</artifactId>
-            <version>1.0.6</version>
+            <groupId>jexcelapi</groupId>
+            <artifactId>jxl</artifactId>
+            <version>2.6</version>
         </dependency>
-        <dependency>
-            <groupId>net.sf.jxls</groupId>
-            <artifactId>jxls-reader</artifactId>
-            <version>1.0.6</version>
-        </dependency>
-
 
         <!-- 导入导出word -->
         <dependency>
